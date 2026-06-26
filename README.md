@@ -10,7 +10,7 @@ A responsive image gallery with JavaScript-powered navigation and lightbox view.
 - Smooth hover effects and transitions
 - Fully responsive layout
 
-📂 **Code:** [`/task-1-image-gallery`](./task-1-image-gallery)
+📂 **Code:** [`/Task1`](./Task1)
 
 ---
 
@@ -22,7 +22,7 @@ A fully functional calculator supporting all basic arithmetic operations.
 - Clear (AC) and delete (DEL) functions
 - Keyboard support for all operations
 
-📂 **Code:** [`/task-2-calculator`](./task-2-calculator)
+📂 **Code:** [`Task2`](./Task2)
 
 ---
 
@@ -35,7 +35,7 @@ A personal portfolio website showcasing my skills, projects, internships, and co
 - Deployed on Netlify
 
 🔗 **Deployed Link:** [https://statuesque-kashata-ce3c89.netlify.app/]
-📂 **Code:** [`/task-3-portfolio`](./task-3-portfolio)
+📂 **Code:** [`/Task3`](./Task3)
 
 ---
 
