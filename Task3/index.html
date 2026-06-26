@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saira Ejaz — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<canvas id="particles"></canvas>
+<div class="cursor-glow"></div>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <span class="logo">saira<span class="dot">.</span>ejaz</span>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#resume">resume</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow mono fade-in" style="--d:0s">$ whoami</p>
+    <h1 class="hero-title">
+      <span id="typedName"></span><span class="caret">|</span>
+    </h1>
+    <p class="hero-role mono fade-in" style="--d:.9s">// Software Engineering Student · AI/ML · Full-Stack</p>
+    <p class="hero-desc fade-in" style="--d:1.1s">
+      Building practical software at the intersection of machine learning,
+      clean interfaces, and full-stack engineering. CGPA 3.45, Fatima Jinnah
+      Women University, Rawalpindi.
+    </p>
+    <div class="hero-cta fade-in" style="--d:1.3s">
+      <a href="#projects" class="btn btn-primary magnetic">View Projects</a>
+      <a href="#contact" class="btn btn-ghost magnetic">Get In Touch</a>
+    </div>
+    <div class="hero-meta mono fade-in" style="--d:1.5s">
+      <span>Rawalpindi, PK</span>
+      <span class="sep">·</span>
+      <span>Open to internships</span>
+    </div>
+  </div>
+
+  <div class="floating-card card-1">
+    <p class="mono small">model.fit(X_train, y_train)</p>
+  </div>
+  <div class="floating-card card-2">
+    <p class="mono small">SELECT * FROM impact;</p>
+  </div>
+  <div class="floating-card card-3">
+    <p class="mono small">&lt;design system /&gt;</p>
+  </div>
+
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
+  <div class="section-head">
+    <span class="tag mono">01 / about</span>
+    <h2>Who I am</h2>
+  </div>
+  <div class="about-grid">
+    <p class="about-text">
+      I'm a Software Engineering student with a strong pull toward Artificial
+      Intelligence, Machine Learning, UI/UX Design, and Full-Stack Development.
+      I've trained ML models on real-world data, built database-driven web apps,
+      and designed interfaces that people actually enjoy using and I like
+      moving between all three without losing precision in any of them.
+    </p>
+    <div class="about-cards">
+      <div class="info-card glass">
+        <h3>Education</h3>
+        <p class="mono small">2023 – Present</p>
+        <p>BS Software Engineering<br>Fatima Jinnah Women University</p>
+        <p class="mono small accent">CGPA 3.45 · Expected 2027</p>
+      </div>
+      <div class="info-card glass">
+        <h3>Certification</h3>
+        <p class="mono small">2026</p>
+        <p>Generative AI<br>Google</p>
+        <p class="mono small accent">LLMs · Prompt Engineering</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE TIMELINE -->
+<section id="experience" class="section reveal">
+  <div class="section-head">
+    <span class="tag mono">02 / experience</span>
+    <h2>Where I've worked</h2>
+  </div>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content glass">
+        <div class="project-top">
+          <span class="mono small">2026</span>
+          <span class="project-stack mono small">AI/ML Engineering Intern</span>
+        </div>
+        <h3>DevelopersHub Corporation</h3>
+        <ul>
+          <li>Completed hands-on AI/ML tasks involving data preprocessing, model training, and evaluation on real-world datasets.</li>
+          <li>Performed exploratory data analysis with Pandas, visualized trends using Matplotlib and Seaborn.</li>
+          <li>Built regression and classification models for stock price and heart disease prediction.</li>
+          <li>Worked with APIs like yfinance for real-time data extraction.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content glass">
+        <div class="project-top">
+          <span class="mono small">2026</span>
+          <span class="project-stack mono small">Frontend Development & Machine Learning Intern</span>
+        </div>
+        <h3>CodeAlpha</h3>
+        <ul>
+          <li>Worked across two tracks: frontend development and machine learning, applying both UI engineering and model-building skills.</li>
+          <li>Built and styled responsive web interfaces using HTML, CSS, and JavaScript.</li>
+          <li>Practiced core machine learning workflows including data handling and model evaluation.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+  <div class="section-head">
+    <span class="tag mono">03 / skills</span>
+    <h2>What I work with</h2>
+  </div>
+
+  <div class="skills-grid">
+
+    <div class="skill-block">
+      <h3 class="mono">languages</h3>
+      <div class="chip-row">
+        <span class="chip">Python</span>
+        <span class="chip">C++</span>
+        <span class="chip">SQL</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">PHP</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+      </div>
+    </div>
+
+    <div class="skill-block">
+      <h3 class="mono">ai / machine learning</h3>
+      <div class="bar"><span class="bar-label">Scikit-learn</span><div class="bar-track"><div class="bar-fill" style="--val:85%"></div></div></div>
+      <div class="bar"><span class="bar-label">Pandas / NumPy</span><div class="bar-track"><div class="bar-fill" style="--val:88%"></div></div></div>
+      <div class="bar"><span class="bar-label">Predictive Modeling</span><div class="bar-track"><div class="bar-fill" style="--val:80%"></div></div></div>
+      <div class="bar"><span class="bar-label">Data Visualization</span><div class="bar-track"><div class="bar-fill" style="--val:82%"></div></div></div>
+    </div>
+
+    <div class="skill-block">
+      <h3 class="mono">web development</h3>
+      <div class="bar"><span class="bar-label">Frontend Dev</span><div class="bar-track"><div class="bar-fill" style="--val:87%"></div></div></div>
+      <div class="bar"><span class="bar-label">Backend Integration</span><div class="bar-track"><div class="bar-fill" style="--val:75%"></div></div></div>
+      <div class="bar"><span class="bar-label">Database Systems</span><div class="bar-track"><div class="bar-fill" style="--val:80%"></div></div></div>
+    </div>
+
+    <div class="skill-block">
+      <h3 class="mono">design & tools</h3>
+      <div class="chip-row">
+        <span class="chip">Figma</span>
+        <span class="chip">Adobe XD</span>
+        <span class="chip">Canva</span>
+        <span class="chip">Git / GitHub</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">XAMPP</span>
+        <span class="chip">VS Code</span>
+        <span class="chip">Google Colab</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section reveal">
+  <div class="section-head">
+    <span class="tag mono">04 / projects</span>
+    <h2>Things I've built</h2>
+  </div>
+
+  <div class="project-grid">
+
+    <article class="project-card tilt">
+      <div class="project-top">
+        <span class="mono small">2026</span>
+        <span class="project-stack mono small">HTML · CSS · Bootstrap · JS · PHP · MySQL</span>
+      </div>
+      <h3>EcoSWAp</h3>
+      <p class="project-sub">Sustainable Item Exchange Platform</p>
+      <p>Full-stack web platform enabling users to exchange reusable items.
+      Responsive UI built with Bootstrap and JavaScript, backed by a secure
+      PHP/MySQL data layer.</p>
+    </article>
+
+    <article class="project-card tilt">
+      <div class="project-top">
+        <span class="mono small">2026</span>
+        <span class="project-stack mono small">Python · Scikit-learn</span>
+      </div>
+      <h3>Loan Default & CKD Prediction</h3>
+      <p class="project-sub">Machine Learning Risk Models</p>
+      <p>ML models predicting financial and healthcare risk. Covered data
+      cleaning, encoding, feature selection, and evaluation with standard
+      classification metrics.</p>
+    </article>
+
+    <article class="project-card tilt">
+      <div class="project-top">
+        <span class="mono small">2025</span>
+        <span class="project-stack mono small">Java · HTML · CSS</span>
+      </div>
+      <h3>Hospital Appointment Booking</h3>
+      <p class="project-sub">Scheduling & Management System</p>
+      <p>Patient appointment scheduling system with an HTML/CSS frontend and
+      Java backend logic for managing bookings.</p>
+    </article>
+
+    <article class="project-card tilt">
+      <div class="project-top">
+        <span class="mono small">2025</span>
+        <span class="project-stack mono small">SQL · Database Systems</span>
+      </div>
+      <h3>Credit Card Fraud Detection</h3>
+      <p class="project-sub">Relational Database System</p>
+      <p>Designed a relational database for fraud detection and transaction
+      analysis, with optimized SQL queries for reporting.</p>
+    </article>
+
+    <article class="project-card tilt">
+      <div class="project-top">
+        <span class="mono small">2024</span>
+        <span class="project-stack mono small">C++</span>
+      </div>
+      <h3>Cinema Ticket Booking</h3>
+      <p class="project-sub">Console Application</p>
+      <p>Console-based ticket booking and seat management system built in C++.</p>
+    </article>
+
+    <article class="project-card tilt">
+      <div class="project-top">
+        <span class="mono small">2026</span>
+        <span class="project-stack mono small">Figma · Adobe XD</span>
+      </div>
+      <h3>UI/UX Design Projects</h3>
+      <p class="project-sub">Coffee Shop · Weather App · E-Commerce</p>
+      <p>Wireframes and interactive prototypes for three apps, focused on
+      usability and clean user experience.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section reveal resume-section">
+  <div class="section-head">
+    <span class="tag mono">05 / resume</span>
+    <h2>My background</h2>
+  </div>
+  <div class="resume-box glass">
+    <p>Download a full copy of my resume — education, internships, projects,
+    and certifications in one place.</p>
+    <a href="SairaEjaz_Cv.pdf" download class="btn btn-primary magnetic">Download CV ↓</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section reveal contact-section">
+  <div class="section-head">
+    <span class="tag mono">06 / contact</span>
+    <h2>Let's talk</h2>
+  </div>
+  <div class="contact-grid">
+    <p class="contact-intro">
+      Have a project, internship, or just want to say hi? My inbox is open.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:sairaejaz409@gmail.com" class="contact-link glass">
+        <span class="mono small">email</span>
+        <span>sairaejaz409@gmail.com</span>
+      </a>
+      <a href="tel:+923431846955" class="contact-link glass">
+        <span class="mono small">phone</span>
+        <span>+92 343 1846955</span>
+      </a>
+      <a href="https://linkedin.com/in/saira-ejaz-se" target="_blank" rel="noopener" class="contact-link glass">
+        <span class="mono small">linkedin</span>
+        <span>saira-ejaz-se</span>
+      </a>
+      <a href="https://github.com/23-22411-057-sudo" target="_blank" rel="noopener" class="contact-link glass">
+        <span class="mono small">github</span>
+        <span>23-22411-057-sudo</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p class="mono small">© <span id="year"></span> Saira Ejaz — built with HTML, CSS & JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
